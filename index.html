@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <h1>Bingo</h1>
+    <div id="participants">
+        <label for="participant">Nome do Participante:</label>
+        <input type="text" id="participant" placeholder="Digite o nome do participante">
+        <button onclick="addParticipant()">Adicionar</button>
+    </div>
+    <div id="cards"></div>
+    <button onclick="generateCards()">Gerar Cartelas</button>
+    <button onclick="startBingo()">Iniciar Bingo</button>
+    <div id="called-numbers"></div>
+    <script src="index.js"></script>
+</body>
+</html>
